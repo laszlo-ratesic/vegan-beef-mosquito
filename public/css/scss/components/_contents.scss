@@ -1,4 +1,4 @@
-.unslate_co--section {
+.laszlo--section {
 	padding: 3.5rem 0;
 	@include media-breakpoint-down(sm) {
 		padding: 2rem 0;
@@ -134,7 +134,7 @@ figure{
   > [class*="col-"] {
     padding-right: 15px!important;
     padding-left: 15px!important;
-    
+
     @include media-breakpoint-down(md) {
     	padding-right: 15px!important;
     	padding-left: 15px!important;
@@ -156,7 +156,7 @@ figure{
 		font-weight: 900;
 	}
 	p {
-		font-size: 16px;	
+		font-size: 16px;
 	}
 }
 
@@ -230,7 +230,7 @@ figure{
 			font-size: 12px;
 			color: rgba($white, .5);
 		}
-		
+
 	}
 }
 
@@ -322,13 +322,13 @@ figure{
     	top: 50%;
     	left: 50%;
     	transform: translate(-50%, -50%);
-	
+
     	&:before {
     		font-size: 40px;
     	}
     }
   }
- 
+
 }
 
 // Blog post
@@ -341,7 +341,7 @@ figure{
 
 // form
 .form-outline-style-v1 {
-	
+
 	.form-group	{
 		position: relative;
 		margin-bottom: 50px;
@@ -442,7 +442,7 @@ figure{
 	}
 }
 
-.unslate_co--close-portfolio {
+.laszlo--close-portfolio {
 	position: absolute;
 	top: -10px;
 	cursor: pointer;
@@ -478,7 +478,7 @@ figure{
 			opacity: 1;
 			left: -10px;
 			visibility: visible;
-		}	
+		}
 	}
 	&:hover, &:focus {
 		border-color: lighten(#212121, 7%);
@@ -510,7 +510,7 @@ figure{
 		text-transform: uppercase;
 		letter-spacing: .1rem;
 		color: rgba($white, .5);
-	}	
+	}
 	.detail-val {
 		font-size: 16px;
 		color: $white;
@@ -521,7 +521,7 @@ figure{
 }
 
 
-.unslate_co--footer {
+.laszlo--footer {
 	text-align: center;
 	font-weight: 300;
 	color: rgba($white, .5);
@@ -657,7 +657,7 @@ span.error {
 }
 
 // Sticky
-.unslate_co--sticky {
+.laszlo--sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 80px;
@@ -747,7 +747,7 @@ span.error {
 		padding-bottom: 2rem;
 		display: inline-block;
 	}
-	
+
 }
 
 .logo-v1 {

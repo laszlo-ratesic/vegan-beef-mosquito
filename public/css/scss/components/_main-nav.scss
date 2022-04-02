@@ -1,4 +1,4 @@
-.unslate_co--site-nav {
+.laszlo--site-nav {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	position: absolute;
@@ -11,7 +11,7 @@
 		position: relative;
 	}
 	.site-logo {
-		
+
 		z-index: 99;
 		&.pos-absolute {
 			position: absolute;
@@ -25,7 +25,7 @@
 		z-index: 1;
 		position: relative;
 	}
-	.unslate_co--site-logo {
+	.laszlo--site-logo {
 		font-size: 1.7rem;
 		color: $white;
 		font-weight: 700;
@@ -76,7 +76,7 @@
 			}
 			&.has-children {
 				position: relative;
-				
+
 				> .dropdown, > ul {
 					visibility: hidden;
 					opacity: 0;
@@ -189,9 +189,9 @@
 				}
 			}
 		}
-	}	
+	}
 
-	
+
 
 	// burger toggle menu
 	.burger-toggle-menu {
@@ -265,7 +265,7 @@
 			  width: 0%;
 			  opacity: 0;
 			}
-			
+
 			span:nth-child(3) {
 			  -webkit-transform: rotate(-45deg);
 			  -moz-transform: rotate(-45deg);
@@ -292,14 +292,14 @@
 		padding-top: 5px;
 		padding-bottom: 5px;
 
-	
+
 		.burger-toggle-menu {
 			top: 10px;
 			span {
 				background: $black;
 			}
 		}
-		.unslate_co--site-logo {
+		.laszlo--site-logo {
 			color: $black;
 		}
 		.site-nav-ul, .site-nav-ul-none-onepage {
@@ -313,7 +313,7 @@
 				text-align: left;
 				display: inline-block;
 				> a {
-					
+
 					display: block;
 					color: $black;
 					&:hover {
@@ -326,18 +326,18 @@
 						color: $primary;
 						&:before {
 							background: $white;
-						}	
+						}
 					}
 				}
 			}
 		}
-		
+
 		&.awake {
 			margin-top: 0px;
 			transition: .3s all ease-out;
 		}
 		&.sleep {
-			transition: .3s all ease-out;	
+			transition: .3s all ease-out;
 		}
 
 	}
@@ -346,7 +346,7 @@
 
 
 /* Mobile nav */
-.unslate_co--site-mobile-menu {
+.laszlo--site-mobile-menu {
 	// display: none;
 
 	position: fixed;
@@ -387,14 +387,14 @@
 					height: 20px;
 					background: $black;
 					position: absolute;
-				} 
+				}
 				.bar1 {
 					transform: rotate(45deg);
 				}
 				.bar2 {
 					transform: rotate(-45deg);
 				}
-			}	
+			}
 		}
 	}
 	ul {
@@ -432,7 +432,7 @@
 								padding-left: 50px;
 								font-size: 14px;
 								padding-top: 5px;
-								padding-bottom: 5px;	
+								padding-bottom: 5px;
 							}
 						}
 					}
@@ -466,7 +466,7 @@
 					}
 					&.collapsed {
 						&:before {
-							transform: translate(-50%, -50%);	
+							transform: translate(-50%, -50%);
 						}
 					}
 				}
@@ -475,9 +475,9 @@
 					> li {
 						&.has-children {
 							.arrow-collapse {
-								
+
 								top: -10px;
-								
+
 							}
 						}
 					}
