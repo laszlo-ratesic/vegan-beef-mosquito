@@ -39,9 +39,9 @@
           </li>
         </ul>
         <p class="site-copyright">
-          Copyright ©
+          Copyright © <span id="date"></span>
           <script>
-            document.write(new Date().getFullYear());
+            document.getElementById('date').innerHTML = new Date().getFullYear();
           </script>
           All rights reserved | Made with
           <i class="icon-heart" aria-hidden="true"></i>
