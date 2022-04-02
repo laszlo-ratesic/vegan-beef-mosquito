@@ -8,4 +8,8 @@ router.get('/blockdust', (req, res) => {
     res.render('blockdust');
 });
 
+router.get('/reaver-cms', (req, res) => {
+    res.render('reaver-cms');
+});
+
 module.exports = router;
