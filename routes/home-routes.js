@@ -16,4 +16,8 @@ router.get('/bloodgate', (req, res) => {
     res.render('bloodgate');
 });
 
+router.get('/postcards-through-hell', (req, res) => {
+    res.render('postcards');
+});
+
 module.exports = router;
