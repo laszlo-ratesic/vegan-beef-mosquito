@@ -12,4 +12,8 @@ router.get('/reaver-cms', (req, res) => {
     res.render('reaver-cms');
 });
 
+router.get('/bloodgate', (req, res) => {
+    res.render('bloodgate');
+});
+
 module.exports = router;
